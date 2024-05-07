@@ -2,6 +2,7 @@
 
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **str** |  | 
@@ -27,12 +28,12 @@ json = "{}"
 # create an instance of ClientContainer from a JSON string
 client_container_instance = ClientContainer.from_json(json)
 # print the JSON string representation of the object
-print ClientContainer.to_json()
+print(ClientContainer.to_json())
 
 # convert the object into a dict
 client_container_dict = client_container_instance.to_dict()
 # create an instance of ClientContainer from a dict
-client_container_form_dict = client_container.from_dict(client_container_dict)
+client_container_from_dict = ClientContainer.from_dict(client_container_dict)
 ```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

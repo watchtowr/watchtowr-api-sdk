@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49d453f3-aaaa-4693-bcb3-e50ba9838560" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AddAssetApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AddAssetApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetCloudStorageAssetsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetCloudStorageAssetsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetContainersApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetContainersApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetDomainsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetDomainsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetIPAddressesApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetIPAddressesApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetIPRangesApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetIPRangesApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetMobileApplicationsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetMobileApplicationsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetPortsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetPortsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetRepositoriesApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetSaaSPlatformsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetSaaSPlatformsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AssetSubdomainsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AssetSubdomainsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/BusinessUnitApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/BusinessUnitApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientBusinessUnit.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientBusinessUnit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientBusinessUnitData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientBusinessUnitData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientBusinessUnitDetail.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientBusinessUnitDetail.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientCloudStorage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientCloudStorage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientCloudStorageData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientCloudStorageData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientContainer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientContainer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientContainerData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientContainerData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientDomain.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientDomain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientDomainData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientDomainData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientFinding.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientFinding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientFindingData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientFindingData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientIp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientIp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientIpData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientIpData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientIpRange.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientIpRange.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientIpRangeData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientIpRangeData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientMobileApp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientMobileApp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientMobileAppData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientMobileAppData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientPort.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientPort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientPortData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientPortData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientRepository.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientRepository.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientRepositoryData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientRepositoryData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSaasPlatform.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSaasPlatform.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSaasPlatformData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSaasPlatformData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSeedData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSeedData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSeedDataData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSeedDataData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSourceIpsAddresses.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSourceIpsAddresses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSubdomain.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSubdomain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ClientSubdomainData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ClientSubdomainData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CreateClientSeedDataRequestBody.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CreateClientSeedDataRequestBody.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FindingsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FindingsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Link.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Link.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Meta.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/NotFound.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/NotFound.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedBusinessUnit.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedBusinessUnit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientCloudStorage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientCloudStorage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientContainer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientContainer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientDomain.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientDomain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientFindings.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientFindings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientIp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientIp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientIpRange.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientIpRange.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientMobileApp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientMobileApp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientPort.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientPort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientRepository.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientRepository.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientSaasPlatform.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientSaasPlatform.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedClientSubdomain.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedClientSubdomain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedPointOfInterest.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedPointOfInterest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaginatedServiceListing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaginatedServiceListing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pagination.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pagination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PointsOfInterest.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PointsOfInterest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PointsOfInterestApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PointsOfInterestApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ServiceListing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ServiceListing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ServiceListingApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ServiceListingApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ServiceType.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ServiceType.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SourceIPAddressesApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SourceIPAddressesApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Technology.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Technology.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Unauthorized.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Unauthorized.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UnprocessableContent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UnprocessableContent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UpdateClientFindingStatusRequestBody.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UpdateClientFindingStatusRequestBody.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UpdateClientIpStatusDto.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test-requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/add_asset_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/add_asset_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_cloud_storage_assets_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_cloud_storage_assets_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_containers_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_containers_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_domains_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_domains_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_ip_addresses_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_ip_addresses_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_ip_ranges_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_ip_ranges_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_mobile_applications_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_mobile_applications_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_ports_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_ports_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_repositories_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_saa_s_platforms_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_saa_s_platforms_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/asset_subdomains_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/asset_subdomains_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/business_unit_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/business_unit_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/findings_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/findings_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/points_of_interest_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/points_of_interest_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/service_listing_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/service_listing_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api/source_ip_addresses_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api/source_ip_addresses_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/api_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/api_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_business_unit_detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_cloud_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_cloud_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_cloud_storage_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_cloud_storage_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_container.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_container.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_container_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_container_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_domain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_domain_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_domain_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_finding.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_finding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_finding_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_finding_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_ip_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_ip_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_ip_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_ip_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_ip_range_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_ip_range_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_mobile_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_mobile_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_mobile_app_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_mobile_app_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_port.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_port.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_port_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_port_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_repository_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_repository_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_saas_platform.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_saas_platform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_saas_platform_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_saas_platform_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_seed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_seed_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_seed_data_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_seed_data_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_source_ips_addresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_source_ips_addresses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_subdomain.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_subdomain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/client_subdomain_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/client_subdomain_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/create_client_seed_data_request_body.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/create_client_seed_data_request_body.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/not_found.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/not_found.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_business_unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_business_unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_cloud_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_cloud_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_container.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_container.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_domain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_findings.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_findings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_ip_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_ip_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_mobile_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_mobile_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_port.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_port.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_saas_platform.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_saas_platform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_subdomain.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_client_subdomain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_point_of_interest.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_point_of_interest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/paginated_service_listing.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/paginated_service_listing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/pagination.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/pagination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/points_of_interest.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/points_of_interest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/service_listing.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/service_listing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/service_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/service_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/technology.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/technology.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/unauthorized.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/unauthorized.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/unprocessable_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/unprocessable_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/update_client_finding_status_request_body.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/models/update_client_finding_status_request_body.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/models/update_client_ip_status_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchtowr_api/rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchtowr_api/rest.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2g8OZ1F9tARHeK5O4VswfNlnY4i" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49d453f3-aaaa-4693-bcb3-e50ba9838560" name="Changes" comment="" />
+      <created>1715075789114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715075789114</updated>
+      <workItem from="1715075790253" duration="1667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

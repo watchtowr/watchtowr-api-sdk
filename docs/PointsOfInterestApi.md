@@ -4,20 +4,19 @@ All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_list_points_of_interest**](PointsOfInterestApi.md#get_list_points_of_interest) | **GET** /api/client/points-of-interest/list | List all discovered Points of Interest
+[**get_list_points_of_interest**](PointsOfInterestApi.md#get_list_points_of_interest) | **GET** /api/client/points-of-interest/list | List all discovered Points of Interest.
 
 
 # **get_list_points_of_interest**
-> PaginatedPointOfInterest get_list_points_of_interest(page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, discovered_date_order=discovered_date_order, search=search, types=types, has_finding=has_finding, start_date=start_date, end_date=end_date, asset_statuses=asset_statuses, business_unit_ids=business_unit_ids)
+> PaginatedPointOfInterest get_list_points_of_interest(page=page, page_size=page_size, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, discovered_date_order=discovered_date_order, search=search, types=types, has_finding=has_finding, start_date=start_date, end_date=end_date, asset_statuses=asset_statuses, business_unit_ids=business_unit_ids)
 
-List all discovered Points of Interest
+List all discovered Points of Interest.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.paginated_point_of_interest import PaginatedPointOfInterest
 from watchtowr_api.rest import ApiException
@@ -43,23 +42,24 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.PointsOfInterestApi(api_client)
-    page = 1 # float | Pagination page (optional)
+    page = 1 # float | Pagination page. The default value is 1 (optional)
+    page_size = 10 # float | Pagination size. The default value is 10 and the maximum is 30 (optional)
     created_from = '2022-02-22 22:00:00' # datetime | created_at Date Range Beginning (optional)
     created_to = '2022-02-23 22:00:00' # datetime | created_at Date Range Ending (optional)
     updated_from = '2022-02-22 22:00:00' # datetime | updated_at Date Range Beginning (optional)
     updated_to = '2022-02-23 22:00:00' # datetime | updated_at Date Range Ending (optional)
     discovered_date_order = 'DESC' # str | Discovered Date Order (optional)
-    search = '' # str | Search text (optional)
+    search = '' # str | Search Text (optional)
     types = 'admin-panel,open-directory' # str | Comma separated list of types (optional)
     has_finding = false # bool | Has Finding (optional)
     start_date = '2022-02-23 22:00:00' # datetime | Start date (optional)
     end_date = '2022-02-23 22:00:00' # datetime | End date (optional)
     asset_statuses = 'verified,Third Party,CDN,Unregistered,Parked,Incorrect Identification,Hanging Cloud IP,pending,VerifiedOutOfScope,VerifiedReducedAttack,Tracked' # str | Comma separated list of asset statuses (optional)
-    business_unit_ids = '1,2,3' # str | Comma separated list of business unit IDs (optional)
+    business_unit_ids = '1,2,3' # str | Comma separated list of Business Unit IDs (optional)
 
     try:
-        # List all discovered Points of Interest
-        api_response = api_instance.get_list_points_of_interest(page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, discovered_date_order=discovered_date_order, search=search, types=types, has_finding=has_finding, start_date=start_date, end_date=end_date, asset_statuses=asset_statuses, business_unit_ids=business_unit_ids)
+        # List all discovered Points of Interest.
+        api_response = api_instance.get_list_points_of_interest(page=page, page_size=page_size, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, discovered_date_order=discovered_date_order, search=search, types=types, has_finding=has_finding, start_date=start_date, end_date=end_date, asset_statuses=asset_statuses, business_unit_ids=business_unit_ids)
         print("The response of PointsOfInterestApi->get_list_points_of_interest:\n")
         pprint(api_response)
     except Exception as e:
@@ -70,21 +70,23 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **page** | **float**| Pagination page | [optional] 
+ **page** | **float**| Pagination page. The default value is 1 | [optional] 
+ **page_size** | **float**| Pagination size. The default value is 10 and the maximum is 30 | [optional] 
  **created_from** | **datetime**| created_at Date Range Beginning | [optional] 
  **created_to** | **datetime**| created_at Date Range Ending | [optional] 
  **updated_from** | **datetime**| updated_at Date Range Beginning | [optional] 
  **updated_to** | **datetime**| updated_at Date Range Ending | [optional] 
  **discovered_date_order** | **str**| Discovered Date Order | [optional] 
- **search** | **str**| Search text | [optional] 
+ **search** | **str**| Search Text | [optional] 
  **types** | **str**| Comma separated list of types | [optional] 
  **has_finding** | **bool**| Has Finding | [optional] 
  **start_date** | **datetime**| Start date | [optional] 
  **end_date** | **datetime**| End date | [optional] 
  **asset_statuses** | **str**| Comma separated list of asset statuses | [optional] 
- **business_unit_ids** | **str**| Comma separated list of business unit IDs | [optional] 
+ **business_unit_ids** | **str**| Comma separated list of Business Unit IDs | [optional] 
 
 ### Return type
 
@@ -100,6 +102,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |

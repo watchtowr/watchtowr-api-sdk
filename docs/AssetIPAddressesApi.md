@@ -4,24 +4,23 @@ All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_asset_ip_details**](AssetIPAddressesApi.md#get_asset_ip_details) | **GET** /api/client/assets/ip/show/{id} | Show the details of a specific IP address asset.
-[**get_asset_ip_port_details**](AssetIPAddressesApi.md#get_asset_ip_port_details) | **GET** /api/client/assets/ip/show/{ipId}/port/show/{portId} | Show the details of a specific port asset belonging to an IP address.
-[**get_asset_ip_ports**](AssetIPAddressesApi.md#get_asset_ip_ports) | **GET** /api/client/assets/ip/show/{id}/port/list | List all discovered ports belonging to an IP address, ordered by date identified.
-[**get_list_asset_ips**](AssetIPAddressesApi.md#get_list_asset_ips) | **GET** /api/client/assets/ip/list | List all discovered IP addresses, ordered by date identified.
-[**update_asset_ip_status**](AssetIPAddressesApi.md#update_asset_ip_status) | **PUT** /api/client/assets/ip/update-status/{id} | Update status of a specific IP address asset.
+[**get_asset_ip_details**](AssetIPAddressesApi.md#get_asset_ip_details) | **GET** /api/client/assets/ip/show/{id} | Show the details of a specific IP Address asset.
+[**get_asset_ip_port_details**](AssetIPAddressesApi.md#get_asset_ip_port_details) | **GET** /api/client/assets/ip/show/{ipId}/port/show/{portId} | Show the details of a specific port asset belonging to an IP Address.
+[**get_asset_ip_ports**](AssetIPAddressesApi.md#get_asset_ip_ports) | **GET** /api/client/assets/ip/show/{id}/port/list | List all discovered ports belonging to an IP Address, ordered by date identified.
+[**get_list_asset_ips**](AssetIPAddressesApi.md#get_list_asset_ips) | **GET** /api/client/assets/ip/list | List all discovered IP Addresses, ordered by date identified.
+[**update_asset_ip_status**](AssetIPAddressesApi.md#update_asset_ip_status) | **PUT** /api/client/assets/ip/update-status/{id} | Update status of a specific IP Address asset.
 
 
 # **get_asset_ip_details**
-> ClientIpData get_asset_ip_details(api_token)
+> ClientIpData get_asset_ip_details(id, api_token)
 
-Show the details of a specific IP address asset.
+Show the details of a specific IP Address asset.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_ip_data import ClientIpData
 from watchtowr_api.rest import ApiException
@@ -47,11 +46,12 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.AssetIPAddressesApi(api_client)
+    id = 3.4 # float | 
     api_token = 'api_token_example' # str | 
 
     try:
-        # Show the details of a specific IP address asset.
-        api_response = api_instance.get_asset_ip_details(api_token)
+        # Show the details of a specific IP Address asset.
+        api_response = api_instance.get_asset_ip_details(id, api_token)
         print("The response of AssetIPAddressesApi->get_asset_ip_details:\n")
         pprint(api_response)
     except Exception as e:
@@ -62,8 +62,10 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+ **id** | **float**|  | 
  **api_token** | **str**|  | 
 
 ### Return type
@@ -80,25 +82,26 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
 **401** | Unauthorized |  -  |
+**403** | Forbidden |  -  |
 **404** | Not Found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_asset_ip_port_details**
-> ClientPortData get_asset_ip_port_details(api_token)
+> ClientPortData get_asset_ip_port_details(ip_id, port_id, api_token)
 
-Show the details of a specific port asset belonging to an IP address.
+Show the details of a specific port asset belonging to an IP Address.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_port_data import ClientPortData
 from watchtowr_api.rest import ApiException
@@ -124,11 +127,13 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.AssetIPAddressesApi(api_client)
+    ip_id = 'ip_id_example' # str | 
+    port_id = 'port_id_example' # str | 
     api_token = 'api_token_example' # str | 
 
     try:
-        # Show the details of a specific port asset belonging to an IP address.
-        api_response = api_instance.get_asset_ip_port_details(api_token)
+        # Show the details of a specific port asset belonging to an IP Address.
+        api_response = api_instance.get_asset_ip_port_details(ip_id, port_id, api_token)
         print("The response of AssetIPAddressesApi->get_asset_ip_port_details:\n")
         pprint(api_response)
     except Exception as e:
@@ -139,8 +144,11 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+ **ip_id** | **str**|  | 
+ **port_id** | **str**|  | 
  **api_token** | **str**|  | 
 
 ### Return type
@@ -157,25 +165,26 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
 **401** | Unauthorized |  -  |
+**403** | Forbidden |  -  |
 **404** | Not Found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_asset_ip_ports**
-> PaginatedClientPort get_asset_ip_ports(asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
+> PaginatedClientPort get_asset_ip_ports(id, page=page, page_size=page_size, asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
 
-List all discovered ports belonging to an IP address, ordered by date identified.
+List all discovered ports belonging to an IP Address, ordered by date identified.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.paginated_client_port import PaginatedClientPort
 from watchtowr_api.rest import ApiException
@@ -201,18 +210,20 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.AssetIPAddressesApi(api_client)
+    id = 3.4 # float | 
+    page = 1 # float | Pagination page. The default value is 1 (optional)
+    page_size = 10 # float | Pagination size. The default value is 10 and the maximum is 30 (optional)
     asset_name = 'www.example.com' # str | Asset name/SaaS URL/IP/IP Range/Port (optional)
     statuses = ['verified,Third Party,Unregistered,Incorrect Identification,pending,VerifiedOutOfScope,VerifiedReducedAttack,CDN,Hanging Cloud IP'] # List[str] | Asset statuses (optional)
-    business_unit_ids = '1,2,3' # str | Comma separated list of business unit IDs (optional)
-    page = 1 # float | Pagination page (optional)
+    business_unit_ids = '1,2,3' # str | Comma separated list of Business Unit IDs (optional)
     created_from = '2022-02-22 22:00:00' # datetime | created_at Date Range Beginning (optional)
     created_to = '2022-02-23 22:00:00' # datetime | created_at Date Range Ending (optional)
     updated_from = '2022-02-22 22:00:00' # datetime | updated_at Date Range Beginning (optional)
     updated_to = '2022-02-23 22:00:00' # datetime | updated_at Date Range Ending (optional)
 
     try:
-        # List all discovered ports belonging to an IP address, ordered by date identified.
-        api_response = api_instance.get_asset_ip_ports(asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
+        # List all discovered ports belonging to an IP Address, ordered by date identified.
+        api_response = api_instance.get_asset_ip_ports(id, page=page, page_size=page_size, asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
         print("The response of AssetIPAddressesApi->get_asset_ip_ports:\n")
         pprint(api_response)
     except Exception as e:
@@ -223,12 +234,15 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+ **id** | **float**|  | 
+ **page** | **float**| Pagination page. The default value is 1 | [optional] 
+ **page_size** | **float**| Pagination size. The default value is 10 and the maximum is 30 | [optional] 
  **asset_name** | **str**| Asset name/SaaS URL/IP/IP Range/Port | [optional] 
  **statuses** | [**List[str]**](str.md)| Asset statuses | [optional] 
- **business_unit_ids** | **str**| Comma separated list of business unit IDs | [optional] 
- **page** | **float**| Pagination page | [optional] 
+ **business_unit_ids** | **str**| Comma separated list of Business Unit IDs | [optional] 
  **created_from** | **datetime**| created_at Date Range Beginning | [optional] 
  **created_to** | **datetime**| created_at Date Range Ending | [optional] 
  **updated_from** | **datetime**| updated_at Date Range Beginning | [optional] 
@@ -248,6 +262,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
@@ -257,16 +272,15 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_list_asset_ips**
-> PaginatedClientIp get_list_asset_ips(asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
+> PaginatedClientIp get_list_asset_ips(page=page, page_size=page_size, asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
 
-List all discovered IP addresses, ordered by date identified.
+List all discovered IP Addresses, ordered by date identified.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.paginated_client_ip import PaginatedClientIp
 from watchtowr_api.rest import ApiException
@@ -292,18 +306,19 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.AssetIPAddressesApi(api_client)
-    asset_name = 'www.example.com' # str | Asset name/SaaS URL/IP/IP Range/Port (optional)
+    page = 1 # float | Pagination page. The default value is 1 (optional)
+    page_size = 10 # float | Pagination size. The default value is 10 and the maximum is 30 (optional)
+    asset_name = '111.111.111.111' # str | A part, or full match of an IP address (optional)
     statuses = ['verified,Third Party,Unregistered,Incorrect Identification,pending,VerifiedOutOfScope,VerifiedReducedAttack,CDN,Hanging Cloud IP'] # List[str] | Asset statuses (optional)
-    business_unit_ids = '1,2,3' # str | Comma separated list of business unit IDs (optional)
-    page = 1 # float | Pagination page (optional)
+    business_unit_ids = '1,2,3' # str | Comma separated list of Business Unit IDs (optional)
     created_from = '2022-02-22 22:00:00' # datetime | created_at Date Range Beginning (optional)
     created_to = '2022-02-23 22:00:00' # datetime | created_at Date Range Ending (optional)
     updated_from = '2022-02-22 22:00:00' # datetime | updated_at Date Range Beginning (optional)
     updated_to = '2022-02-23 22:00:00' # datetime | updated_at Date Range Ending (optional)
 
     try:
-        # List all discovered IP addresses, ordered by date identified.
-        api_response = api_instance.get_list_asset_ips(asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
+        # List all discovered IP Addresses, ordered by date identified.
+        api_response = api_instance.get_list_asset_ips(page=page, page_size=page_size, asset_name=asset_name, statuses=statuses, business_unit_ids=business_unit_ids, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to)
         print("The response of AssetIPAddressesApi->get_list_asset_ips:\n")
         pprint(api_response)
     except Exception as e:
@@ -314,12 +329,14 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **asset_name** | **str**| Asset name/SaaS URL/IP/IP Range/Port | [optional] 
+ **page** | **float**| Pagination page. The default value is 1 | [optional] 
+ **page_size** | **float**| Pagination size. The default value is 10 and the maximum is 30 | [optional] 
+ **asset_name** | **str**| A part, or full match of an IP address | [optional] 
  **statuses** | [**List[str]**](str.md)| Asset statuses | [optional] 
- **business_unit_ids** | **str**| Comma separated list of business unit IDs | [optional] 
- **page** | **float**| Pagination page | [optional] 
+ **business_unit_ids** | **str**| Comma separated list of Business Unit IDs | [optional] 
  **created_from** | **datetime**| created_at Date Range Beginning | [optional] 
  **created_to** | **datetime**| created_at Date Range Ending | [optional] 
  **updated_from** | **datetime**| updated_at Date Range Beginning | [optional] 
@@ -339,6 +356,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
@@ -347,19 +365,18 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **update_asset_ip_status**
-> ClientIpData update_asset_ip_status(update_client_ip_status_dto)
+> ClientIpData update_asset_ip_status(id, update_client_legacy_asset_status_dto)
 
-Update status of a specific IP address asset.
+Update status of a specific IP Address asset.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_ip_data import ClientIpData
-from watchtowr_api.models.update_client_ip_status_dto import UpdateClientIpStatusDto
+from watchtowr_api.models.update_client_legacy_asset_status_dto import UpdateClientLegacyAssetStatusDto
 from watchtowr_api.rest import ApiException
 from pprint import pprint
 
@@ -383,11 +400,12 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.AssetIPAddressesApi(api_client)
-    update_client_ip_status_dto = watchtowr_api.UpdateClientIpStatusDto() # UpdateClientIpStatusDto | 
+    id = 3.4 # float | 
+    update_client_legacy_asset_status_dto = watchtowr_api.UpdateClientLegacyAssetStatusDto() # UpdateClientLegacyAssetStatusDto | 
 
     try:
-        # Update status of a specific IP address asset.
-        api_response = api_instance.update_asset_ip_status(update_client_ip_status_dto)
+        # Update status of a specific IP Address asset.
+        api_response = api_instance.update_asset_ip_status(id, update_client_legacy_asset_status_dto)
         print("The response of AssetIPAddressesApi->update_asset_ip_status:\n")
         pprint(api_response)
     except Exception as e:
@@ -398,9 +416,11 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **update_client_ip_status_dto** | [**UpdateClientIpStatusDto**](UpdateClientIpStatusDto.md)|  | 
+ **id** | **float**|  | 
+ **update_client_legacy_asset_status_dto** | [**UpdateClientLegacyAssetStatusDto**](UpdateClientLegacyAssetStatusDto.md)|  | 
 
 ### Return type
 
@@ -416,6 +436,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
