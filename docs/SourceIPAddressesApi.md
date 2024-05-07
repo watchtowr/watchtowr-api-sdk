@@ -4,20 +4,19 @@ All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_list_source_ip_addresses**](SourceIPAddressesApi.md#get_list_source_ip_addresses) | **GET** /api/client/source-ips | List all source IP addresses.
+[**get_list_source_ip_addresses**](SourceIPAddressesApi.md#get_list_source_ip_addresses) | **GET** /api/client/testing-infrastructure | List all source IP Addresses.
 
 
 # **get_list_source_ip_addresses**
 > ClientSourceIpsAddresses get_list_source_ip_addresses()
 
-List all source IP addresses.
+List all source IP Addresses.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_source_ips_addresses import ClientSourceIpsAddresses
 from watchtowr_api.rest import ApiException
@@ -45,7 +44,7 @@ with watchtowr_api.ApiClient(configuration) as api_client:
     api_instance = watchtowr_api.SourceIPAddressesApi(api_client)
 
     try:
-        # List all source IP addresses.
+        # List all source IP Addresses.
         api_response = api_instance.get_list_source_ip_addresses()
         print("The response of SourceIPAddressesApi->get_list_source_ip_addresses:\n")
         pprint(api_response)
@@ -56,6 +55,7 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 
 ### Parameters
+
 This endpoint does not need any parameter.
 
 ### Return type
@@ -72,6 +72,7 @@ This endpoint does not need any parameter.
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |

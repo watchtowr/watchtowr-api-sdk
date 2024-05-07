@@ -2,6 +2,7 @@
 
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **str** |  | 
@@ -25,12 +26,12 @@ json = "{}"
 # create an instance of ClientSaasPlatform from a JSON string
 client_saas_platform_instance = ClientSaasPlatform.from_json(json)
 # print the JSON string representation of the object
-print ClientSaasPlatform.to_json()
+print(ClientSaasPlatform.to_json())
 
 # convert the object into a dict
 client_saas_platform_dict = client_saas_platform_instance.to_dict()
 # create an instance of ClientSaasPlatform from a dict
-client_saas_platform_form_dict = client_saas_platform.from_dict(client_saas_platform_dict)
+client_saas_platform_from_dict = ClientSaasPlatform.from_dict(client_saas_platform_dict)
 ```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

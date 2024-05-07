@@ -2,6 +2,7 @@
 
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **str** |  | 
@@ -13,6 +14,7 @@ Name | Type | Description | Notes
 **id** | **float** |  | 
 **name** | **str** |  | 
 **business_units** | [**List[ClientBusinessUnit]**](ClientBusinessUnit.md) |  | 
+**live** | **bool** |  | 
 
 ## Example
 
@@ -24,12 +26,12 @@ json = "{}"
 # create an instance of ClientDomain from a JSON string
 client_domain_instance = ClientDomain.from_json(json)
 # print the JSON string representation of the object
-print ClientDomain.to_json()
+print(ClientDomain.to_json())
 
 # convert the object into a dict
 client_domain_dict = client_domain_instance.to_dict()
 # create an instance of ClientDomain from a dict
-client_domain_form_dict = client_domain.from_dict(client_domain_dict)
+client_domain_from_dict = ClientDomain.from_dict(client_domain_dict)
 ```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
