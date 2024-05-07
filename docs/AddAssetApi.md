@@ -15,9 +15,8 @@ Add asset to your attack surface for review.
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_seed_data_data import ClientSeedDataData
 from watchtowr_api.models.create_client_seed_data_request_body import CreateClientSeedDataRequestBody
@@ -59,6 +58,7 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **create_client_seed_data_request_body** | [**CreateClientSeedDataRequestBody**](CreateClientSeedDataRequestBody.md)|  | 
@@ -77,6 +77,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |

@@ -4,21 +4,20 @@ All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_business_unit_details**](BusinessUnitApi.md#get_business_unit_details) | **GET** /api/client/business-unit/show/{id} | Get business unit details by business unit ID.
+[**get_business_unit_details**](BusinessUnitApi.md#get_business_unit_details) | **GET** /api/client/business-unit/show/{id} | Get Business Unit details by Business Unit ID.
 [**get_list_business_unit**](BusinessUnitApi.md#get_list_business_unit) | **GET** /api/client/business-unit/list | List Business Units.
 
 
 # **get_business_unit_details**
 > ClientBusinessUnitData get_business_unit_details(id)
 
-Get business unit details by business unit ID.
+Get Business Unit details by Business Unit ID.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.client_business_unit_data import ClientBusinessUnitData
 from watchtowr_api.rest import ApiException
@@ -44,10 +43,10 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.BusinessUnitApi(api_client)
-    id = 'id_example' # str | 
+    id = 3.4 # float | 
 
     try:
-        # Get business unit details by business unit ID.
+        # Get Business Unit details by Business Unit ID.
         api_response = api_instance.get_business_unit_details(id)
         print("The response of BusinessUnitApi->get_business_unit_details:\n")
         pprint(api_response)
@@ -59,9 +58,10 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
+ **id** | **float**|  | 
 
 ### Return type
 
@@ -77,25 +77,26 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |
 **401** | Unauthorized |  -  |
+**403** | Forbidden |  -  |
 **404** | 404 Not Found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_list_business_unit**
-> PaginatedBusinessUnit get_list_business_unit(page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, search=search)
+> PaginatedBusinessUnit get_list_business_unit(page=page, page_size=page_size, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, search=search)
 
 List Business Units.
 
 ### Example
 
 * Bearer (Hex string) Authentication (bearer):
+
 ```python
-import time
-import os
 import watchtowr_api
 from watchtowr_api.models.paginated_business_unit import PaginatedBusinessUnit
 from watchtowr_api.rest import ApiException
@@ -121,16 +122,17 @@ configuration = watchtowr_api.Configuration(
 with watchtowr_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = watchtowr_api.BusinessUnitApi(api_client)
-    page = 1 # float | Pagination page (optional)
+    page = 1 # float | Pagination page. The default value is 1 (optional)
+    page_size = 10 # float | Pagination size. The default value is 10 and the maximum is 30 (optional)
     created_from = '2022-02-22 22:00:00' # datetime | created_at Date Range Beginning (optional)
     created_to = '2022-02-23 22:00:00' # datetime | created_at Date Range Ending (optional)
     updated_from = '2022-02-22 22:00:00' # datetime | updated_at Date Range Beginning (optional)
     updated_to = '2022-02-23 22:00:00' # datetime | updated_at Date Range Ending (optional)
-    search = 'Singapore Business Unit' # str | Search business unit by name (optional)
+    search = 'Singapore Business Unit' # str | Search Business Unit by name (optional)
 
     try:
         # List Business Units.
-        api_response = api_instance.get_list_business_unit(page=page, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, search=search)
+        api_response = api_instance.get_list_business_unit(page=page, page_size=page_size, created_from=created_from, created_to=created_to, updated_from=updated_from, updated_to=updated_to, search=search)
         print("The response of BusinessUnitApi->get_list_business_unit:\n")
         pprint(api_response)
     except Exception as e:
@@ -141,14 +143,16 @@ with watchtowr_api.ApiClient(configuration) as api_client:
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **page** | **float**| Pagination page | [optional] 
+ **page** | **float**| Pagination page. The default value is 1 | [optional] 
+ **page_size** | **float**| Pagination size. The default value is 10 and the maximum is 30 | [optional] 
  **created_from** | **datetime**| created_at Date Range Beginning | [optional] 
  **created_to** | **datetime**| created_at Date Range Ending | [optional] 
  **updated_from** | **datetime**| updated_at Date Range Beginning | [optional] 
  **updated_to** | **datetime**| updated_at Date Range Ending | [optional] 
- **search** | **str**| Search business unit by name | [optional] 
+ **search** | **str**| Search Business Unit by name | [optional] 
 
 ### Return type
 
@@ -164,6 +168,7 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 ### HTTP response details
+
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | Success |  -  |

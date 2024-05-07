@@ -2,6 +2,7 @@
 
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **str** |  | 
@@ -29,12 +30,12 @@ json = "{}"
 # create an instance of ClientMobileApp from a JSON string
 client_mobile_app_instance = ClientMobileApp.from_json(json)
 # print the JSON string representation of the object
-print ClientMobileApp.to_json()
+print(ClientMobileApp.to_json())
 
 # convert the object into a dict
 client_mobile_app_dict = client_mobile_app_instance.to_dict()
 # create an instance of ClientMobileApp from a dict
-client_mobile_app_form_dict = client_mobile_app.from_dict(client_mobile_app_dict)
+client_mobile_app_from_dict = ClientMobileApp.from_dict(client_mobile_app_dict)
 ```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
